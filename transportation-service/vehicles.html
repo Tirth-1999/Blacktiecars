@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Vehicles | Premium Transportation Services</title>
+  <meta name="description" content="Explore our fleet of luxury vehicles available for hire with professional drivers in College Station and beyond.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="sticky-header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <button id="menu-toggle" class="menu-button lg-hidden">
+            <i data-lucide="menu"></i>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <a href="index.html" class="logo">Premium Transport</a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="vehicles.html" class="nav-link active">Vehicles</a>
+          <a href="booking.html" class="nav-link">Book Now</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="phone-container">
+            <i data-lucide="phone" class="icon-sm"></i>
+            <span class="phone-number">(555) 123-4567</span>
+          </div>
+          <a href="booking.html" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button id="close-menu" class="close-button">
+          <i data-lucide="x"></i>
+        </button>
+        <nav class="mobile-nav">
+          <a href="index.html" class="mobile-nav-link">Home</a>
+          <a href="vehicles.html" class="mobile-nav-link active">Vehicles</a>
+          <a href="booking.html" class="mobile-nav-link">Book Now</a>
+          <a href="#" class="mobile-nav-link">About Us</a>
+          <a href="#" class="mobile-nav-link">Contact</a>
+          <div class="mobile-phone">
+            <i data-lucide="phone"></i>
+            <span>(555) 123-4567</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Our Premium Fleet</h1>
+        <p>Choose from our selection of luxury vehicles, each maintained to the highest standards and driven by professional chauffeurs.</p>
+      </div>
+    </section>
+    
+    <section class="section bg-light">
+      <div class="container">
+        <div class="tabs">
+          <div class="tab-list">
+            <button class="tab-button active" data-tab="all">All Vehicles</button>
+            <button class="tab-button" data-tab="sedan">Sedans</button>
+            <button class="tab-button" data-tab="suv">SUVs</button>
+            <button class="tab-button" data-tab="van">Vans</button>
+          </div>
+          
+          <div class="tab-content active" id="tab-all">
+            <div class="vehicle-grid-large">
+              <!-- Maserati -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Maserati Quattroporte">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Maserati Quattroporte</h3>
+                  <p>Luxury sedan with premium leather interior and advanced entertainment system. Perfect for executive travel and special occasions.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 3 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>2 luggage items</span>
+                    </div>
+                  </div>
+                  
+                  <div class="vehicle-features">
+                    <h4>Features</h4>
+                    <ul>
+                      <li>Premium leather interior</li>
+                      <li>Advanced climate control</li>
+                      <li>Wi-Fi connectivity</li>
+                      <li>Premium sound system</li>
+                      <li>Complimentary bottled water</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=maserati" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+              
+              <!-- Lincoln -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Lincoln Navigator">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Lincoln Navigator</h3>
+                  <p>Spacious SUV with ample legroom and luggage space for group travel. Ideal for families and small groups.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 6 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>4 luggage items</span>
+                    </div>
+                  </div>
+                  
+                  <div class="vehicle-features">
+                    <h4>Features</h4>
+                    <ul>
+                      <li>Spacious leather seating</li>
+                      <li>Third-row seating</li>
+                      <li>USB charging ports</li>
+                      <li>Entertainment system</li>
+                      <li>Complimentary refreshments</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=lincoln" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+              
+              <!-- Escalade -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Cadillac Escalade">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Cadillac Escalade</h3>
+                  <p>Iconic luxury SUV with premium features and commanding presence. Perfect for business travel and special events.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 6 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>4 luggage items</span>
+                    </div>
+                  </div>
+                  
+                  <div class="vehicle-features">
+                    <h4>Features</h4>
+                    <ul>
+                      <li>Premium leather interior</li>
+                      <li>Heated and cooled seats</li>
+                      <li>Wi-Fi connectivity</li>
+                      <li>Premium sound system</li>
+                      <li>Complimentary refreshments</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=escalade" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+              
+              <!-- Sprinter -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Mercedes Sprinter">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Mercedes Sprinter</h3>
+                  <p>Spacious van perfect for larger groups and corporate outings. Comfortable seating with ample luggage space.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 12 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>12 luggage items</span>
+                    </div>
+                  </div>
+                  
+                  <div class="vehicle-features">
+                    <h4>Features</h4>
+                    <ul>
+                      <li>Comfortable seating</li>
+                      <li>High ceiling for easy entry</li>
+                      <li>USB charging ports</li>
+                      <li>Entertainment system</li>
+                      <li>Complimentary refreshments</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=sprinter" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" id="tab-sedan">
+            <div class="vehicle-grid-large">
+              <!-- Maserati -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Maserati Quattroporte">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Maserati Quattroporte</h3>
+                  <p>Luxury sedan with premium leather interior and advanced entertainment system. Perfect for executive travel and special occasions.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 3 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>2 luggage items</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=maserati" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" id="tab-suv">
+            <div class="vehicle-grid-large">
+              <!-- Lincoln -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Lincoln Navigator">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Lincoln Navigator</h3>
+                  <p>Spacious SUV with ample legroom and luggage space for group travel. Ideal for families and small groups.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 6 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>4 luggage items</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=lincoln" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+              
+              <!-- Escalade -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Cadillac Escalade">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Cadillac Escalade</h3>
+                  <p>Iconic luxury SUV with premium features and commanding presence. Perfect for business travel and special events.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 6 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>4 luggage items</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=escalade" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" id="tab-van">
+            <div class="vehicle-grid-large">
+              <!-- Sprinter -->
+              <div class="vehicle-card-large">
+                <div class="vehicle-image">
+                  <img src="https://placehold.co/500x300" alt="Mercedes Sprinter">
+                </div>
+                <div class="vehicle-content">
+                  <h3>Mercedes Sprinter</h3>
+                  <p>Spacious van perfect for larger groups and corporate outings. Comfortable seating with ample luggage space.</p>
+                  
+                  <div class="vehicle-specs">
+                    <div class="spec">
+                      <i data-lucide="users"></i>
+                      <span>Up to 12 passengers</span>
+                    </div>
+                    <div class="spec">
+                      <i data-lucide="briefcase"></i>
+                      <span>12 luggage items</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="vehicle-footer">
+                  <a href="booking.html?vehicle=sprinter" class="btn btn-primary btn-block">Book This Vehicle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section bg-white">
+      <div class="container">
+        <div class="info-box">
+          <h2>Vehicle Booking Information</h2>
+          
+          <div class="info-content">
+            <div class="info-item">
+              <h3>Chauffeur Services</h3>
+              <p>
+                All our vehicles come with professional, uniformed chauffeurs who are experienced, licensed, and trained to provide exceptional service. Our chauffeurs are knowledgeable about the local area and committed to ensuring your comfort and safety.
+              </p>
+            </div>
+            
+            <div class="info-item">
+              <h3>Vehicle Amenities</h3>
+              <p>
+                Our premium fleet vehicles include complimentary bottled water, Wi-Fi connectivity (where available), charging ports for your devices, and climate control for your comfort. Special requests can be accommodated with advance notice.
+              </p>
+            </div>
+            
+            <div class="info-item">
+              <h3>Special Requirements</h3>
+              <p>
+                We can accommodate special requirements such as child seats, wheelchair accessibility, or additional luggage space. Please specify your needs during the booking process or contact our booking manager directly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section text-center">
+      <div class="container">
+        <h2>Ready to Book Your Premium Transportation?</h2>
+        <a href="booking.html" class="btn btn-primary btn-lg">Book Now</a>
+      </div>
+    </section>
+    
+    <!-- Live Chat Button -->
+    <div class="live-chat-container">
+      <button id="chat-toggle" class="chat-button">
+        <i data-lucide="message-circle" id="chat-icon"></i>
+        <i data-lucide="x" id="close-icon" class="hidden"></i>
+      </button>
+      
+      <div id="chat-window" class="chat-window hidden">
+        <div class="chat-header">
+          <h3>Live Chat Support</h3>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="message agent-message">
+            <div class="message-content">
+              <p>Hi there! I'm Amanda, your booking manager. How can I help you today?</p>
+              <span class="message-time">12:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input">
+          <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Type your message..." required>
+            <button type="submit">
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Premium Transport</h3>
+          <p>
+            Providing luxury transportation services in College Station and beyond. Professional drivers, premium vehicles, exceptional service.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <i data-lucide="facebook"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i data-lucide="twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Our Vehicles</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="booking.html?service=airport">Airport Transfers</a></li>
+            <li><a href="booking.html?service=event">Event Transportation</a></li>
+            <li><a href="booking.html?service=custom">Custom Bookings</a></li>
+            <li><a href="#">Corporate Services</a></li>
+            <li><a href="#">Special Occasions</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i data-lucide="map-pin"></i>
+              <span>123 Main Street, College Station, TX 77840</span>
+            </li>
+            <li>
+              <i data-lucide="phone"></i>
+              <span>(555) 123-4567</span>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <span>info@premiumtransport.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Premium Transport. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+```html file="booking.html"
+&lt;!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Transportation | Premium Transportation Services</title>
+  <meta name="description" content="Book your premium transportation service for airport transfers, events, or custom bookings in College Station and beyond.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  &lt;!-- Navigation -->
+  <header class="sticky-header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <button id="menu-toggle" class="menu-button lg-hidden">
+            <i data-lucide="menu"></i>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <a href="index.html" class="logo">Premium Transport</a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="vehicles.html" class="nav-link">Vehicles</a>
+          <a href="booking.html" class="nav-link active">Book Now</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="phone-container">
+            <i data-lucide="phone" class="icon-sm"></i>
+            <span class="phone-number">(555) 123-4567</span>
+          </div>
+          <a href="booking.html" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    
+    &lt;!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button id="close-menu" class="close-button">
+          <i data-lucide="x"></i>
+        </button>
+        <nav class="mobile-nav">
+          <a href="index.html" class="mobile-nav-link">Home</a>
+          <a href="vehicles.html" class="mobile-nav-link">Vehicles</a>
+          <a href="booking.html" class="mobile-nav-link active">Book Now</a>
+          <a href="#" class="mobile-nav-link">About Us</a>
+          <a href="#" class="mobile-nav-link">Contact</a>
+          <div class="mobile-phone">
+            <i data-lucide="phone"></i>
+            <span>(555) 123-4567</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Book Your Transportation</h1>
+        <p>Complete the form below to book your premium transportation service. Our booking manager will confirm your reservation shortly.</p>
+      </div>
+    </section>
+    
+    <section class="section bg-light">
+      <div class="container">
+        <div class="booking-card">
+          <form id="booking-form" class="booking-form">
+            &lt;!-- Step Indicator -->
+            <div class="step-indicator">
+              <div class="step active" data-step="1">
+                <div class="step-number">1</div>
+                <div class="step-title">Service Type</div>
+              </div>
+              <div class="step" data-step="2">
+                <div class="step-number">2</div>
+                <div class="step-title">Vehicle & Date</div>
+              </div>
+              <div class="step" data-step="3">
+                <div class="step-number">3</div>
+                <div class="step-title">Contact Info</div>
+              </div>
+            </div>
+            
+            &lt;!-- Step 1: Service Type -->
+            <div class="form-step active" id="step-1">
+              <h2>1. Select Service Type</h2>
+              <p class="form-description">Choose the type of transportation service you need</p>
+              
+              <div class="service-tabs">
+                <div class="tab-list">
+                  <button type="button" class="tab-button active" data-service="airport">Airport Transfer</button>
+                  <button type="button" class="tab-button" data-service="event">Event Transportation</button>
+                  <button type="button" class="tab-button" data-service="custom">Custom Booking</button>
+                </div>
+                
+                <div class="service-content active" id="service-airport">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="pickup">Pickup Location</label>
+                      <input type="text" id="pickup" name="pickup" placeholder="Enter address or location" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="dropoff">Dropoff Location</label>
+                      <input type="text" id="dropoff" name="dropoff" placeholder="Enter address or location" required>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="flight">Flight Information (optional)</label>
+                    <input type="text" id="flight" name="flight" placeholder="Flight number (e.g., AA1234)">
+                    <p class="form-hint">
+                      Providing your flight information allows us to track your flight and adjust for any delays.
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="service-content" id="service-event">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="pickup-event">Pickup Location</label>
+                      <input type="text" id="pickup-event" name="pickup-event" placeholder="Enter address or location">
+                    </div>
+                    <div class="form-group">
+                      <label for="event-location">Event Location</label>
+                      <input type="text" id="event-location" name="event-location" placeholder="Enter event address">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="event-type">Event Type</label>
+                    <select id="event-type" name="event-type">
+                      <option value="" disabled selected>Select event type</option>
+                      <option value="sports">Sports Event (A&M Game)</option>
+                      <option value="corporate">Corporate Event</option>
+                      <option value="wedding">Wedding</option>
+                      <option value="concert">Concert</option>
+                      <option value="other">Other Event</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="event-notes">Special Requirements</label>
+                    <textarea id="event-notes" name="event-notes" placeholder="Any special requirements or information about the event" rows="4"></textarea>
+                  </div>
+                </div>
+                
+                <div class="service-content" id="service-custom">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="pickup-custom">Initial Pickup Location</label>
+                      <input type="text" id="pickup-custom" name="pickup-custom" placeholder="Enter address or location">
+                    </div>
+                    <div class="form-group">
+                      <label for="duration">Booking Duration</label>
+                      <select id="duration" name="duration">
+                        <option value="" disabled selected>Select duration</option>
+                        <option value="2">2 Hours</option>
+                        <option value="4">4 Hours</option>
+                        <option value="6">6 Hours</option>
+                        <option value="8">8 Hours</option>
+                        <option value="12">12 Hours</option>
+                        <option value="24">24 Hours</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="itinerary">Itinerary Details</label>
+                    <textarea id="itinerary" name="itinerary" placeholder="Please provide details of your planned stops and schedule" rows="4"></textarea>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-buttons">
+                <button type="button" class="btn btn-primary" id="next-to-step-2">Continue to Vehicle Selection</button>
+              </div>
+            </div>
+            
+            &lt;!-- Step 2: Vehicle & Date -->
+            <div class="form-step" id="step-2">
+              <h2>2. Select Vehicle & Date</h2>
+              <p class="form-description">Choose your preferred vehicle and booking date</p>
+              
+              <div class="form-group">
+                <label>Select Vehicle</label>
+                <div class="vehicle-selection">
+                  <div class="vehicle-option">
+                    <input type="radio" name="vehicle" id="vehicle-maserati" value="maserati" class="vehicle-radio">
+                    <label for="vehicle-maserati" class="vehicle-label">
+                      <div class="vehicle-image">
+                        <img src="https://placehold.co/300x150" alt="Maserati Quattroporte">
+                      </div>
+                      <div class="vehicle-info">
+                        <h3>Maserati Quattroporte</h3>
+                        <div class="vehicle-capacity">
+                          <span>Up to 3 passengers</span>
+                          <span>2 luggage</span>
+                        </div>
+                      </div>
+                      <div class="vehicle-check">
+                        <i data-lucide="check"></i>
+                      </div>
+                    </label>
+                  </div>
+                  
+                  <div class="vehicle-option">
+                    <input type="radio" name="vehicle" id="vehicle-lincoln" value="lincoln" class="vehicle-radio">
+                    <label for="vehicle-lincoln" class="vehicle-label">
+                      <div class="vehicle-image">
+                        <img src="https://placehold.co/300x150" alt="Lincoln Navigator">
+                      </div>
+                      <div class="vehicle-info">
+                        <h3>Lincoln Navigator</h3>
+                        <div class="vehicle-capacity">
+                          <span>Up to 6 passengers</span>
+                          <span>4 luggage</span>
+                        </div>
+                      </div>
+                      <div class="vehicle-check">
+                        <i data-lucide="check"></i>
+                      </div>
+                    </label>
+                  </div>
+                  
+                  <div class="vehicle-option">
+                    <input type="radio" name="vehicle" id="vehicle-escalade" value="escalade" class="vehicle-radio">
+                    <label for="vehicle-escalade" class="vehicle-label">
+                      <div class="vehicle-image">
+                        <img src="https://placehold.co/300x150" alt="Cadillac Escalade">
+                      </div>
+                      <div class="vehicle-info">
+                        <h3>Cadillac Escalade</h3>
+                        <div class="vehicle-capacity">
+                          <span>Up to 6 passengers</span>
+                          <span>4 luggage</span>
+                        </div>
+                      </div>
+                      <div class="vehicle-check">
+                        <i data-lucide="check"></i>
+                      </div>
+                    </label>
+                  </div>
+                  
+                  <div class="vehicle-option">
+                    <input type="radio" name="vehicle" id="vehicle-sprinter" value="sprinter" class="vehicle-radio">
+                    <label for="vehicle-sprinter" class="vehicle-label">
+                      <div class="vehicle-image">
+                        <img src="https://placehold.co/300x150" alt="Mercedes Sprinter">
+                      </div>
+                      <div class="vehicle-info">
+                        <h3>Mercedes Sprinter</h3>
+                        <div class="vehicle-capacity">
+                          <span>Up to 12 passengers</span>
+                          <span>12 luggage</span>
+                        </div>
+                      </div>
+                      <div class="vehicle-check">
+                        <i data-lucide="check"></i>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="pickup-date">Pickup Date</label>
+                  <input type="text" id="pickup-date" name="pickup-date" class="datepicker" placeholder="Select date" required>
+                </div>
+                <div class="form-group">
+                  <label for="pickup-time">Pickup Time</label>
+                  <select id="pickup-time" name="pickup-time" required>
+                    <option value="" disabled selected>Select time</option>
+                    <option value="0:00">12:00 AM</option>
+                    <option value="0:30">12:30 AM</option>
+                    <option value="1:00">1:00 AM</option>
+                    <option value="1:30">1:30 AM</option>
+                    <option value="2:00">2:00 AM</option>
+                    <option value="2:30">2:30 AM</option>
+                    <option value="3:00">3:00 AM</option>
+                    <option value="3:30">3:30 AM</option>
+                    <option value="4:00">4:00 AM</option>
+                    <option value="4:30">4:30 AM</option>
+                    <option value="5:00">5:00 AM</option>
+                    <option value="5:30">5:30 AM</option>
+                    <option value="6:00">6:00 AM</option>
+                    <option value="6:30">6:30 AM</option>
+                    <option value="7:00">7:00 AM</option>
+                    <option value="7:30">7:30 AM</option>
+                    <option value="8:00">8:00 AM</option>
+                    <option value="8:30">8:30 AM</option>
+                    <option value="9:00">9:00 AM</option>
+                    <option value="9:30">9:30 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="13:00">1:00 PM</option>
+                    <option value="13:30">1:30 PM</option>
+                    <option value="14:00">2:00 PM</option>
+                    <option value="14:30">2:30 PM</option>
+                    <option value="15:00">3:00 PM</option>
+                    <option value="15:30">3:30 PM</option>
+                    <option value="16:00">4:00 PM</option>
+                    <option value="16:30">4:30 PM</option>
+                    <option value="17:00">5:00 PM</option>
+                    <option value="17:30">5:30 PM</option>
+                    <option value="18:00">6:00 PM</option>
+                    <option value="18:30">6:30 PM</option>
+                    <option value="19:00">7:00 PM</option>
+                    <option value="19:30">7:30 PM</option>
+                    <option value="20:00">8:00 PM</option>
+                    <option value="20:30">8:30 PM</option>
+                    <option value="21:00">9:00 PM</option>
+                    <option value="21:30">9:30 PM</option>
+                    <option value="22:00">10:00 PM</option>
+                    <option value="22:30">10:30 PM</option>
+                    <option value="23:00">11:00 PM</option>
+                    <option value="23:30">11:30 PM</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="passengers">Number of Passengers</label>
+                  <select id="passengers" name="passengers" required>
+                    <option value="" disabled selected>Select number</option>
+                    <option value="1">1 passenger</option>
+                    <option value="2">2 passengers</option>
+                    <option value="3">3 passengers</option>
+                    <option value="4">4 passengers</option>
+                    <option value="5">5 passengers</option>
+                    <option value="6">6 passengers</option>
+                    <option value="7">7 passengers</option>
+                    <option value="8">8 passengers</option>
+                    <option value="9">9 passengers</option>
+                    <option value="10">10 passengers</option>
+                    <option value="11">11 passengers</option>
+                    <option value="12">12 passengers</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="luggage">Luggage Items</label>
+                  <select id="luggage" name="luggage" required>
+                    <option value="" disabled selected>Select number</option>
+                    <option value="1">1 item</option>
+                    <option value="2">2 items</option>
+                    <option value="3">3 items</option>
+                    <option value="4">4 items</option>
+                    <option value="5">5 items</option>
+                    <option value="6">6 items</option>
+                    <option value="7">7 items</option>
+                    <option value="8">8 items</option>
+                    <option value="9">9 items</option>
+                    <option value="10">10 items</option>
+                    <option value="11">11 items</option>
+                    <option value="12">12 items</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="form-buttons">
+                <button type="button" class="btn btn-outline" id="back-to-step-1">Back</button>
+                <button type="button" class="btn btn-primary" id="next-to-step-3">Continue to Contact Information</button>
+              </div>
+            </div>
+            
+            &lt;!-- Step 3: Contact Information -->
+            <div class="form-step" id="step-3">
+              <h2>3. Contact Information</h2>
+              <p class="form-description">Provide your details to complete the booking</p>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="specialRequirements">Special Requirements (Optional)</label>
+                <textarea id="specialRequirements" name="specialRequirements" placeholder="Any special requirements (e.g., baby seat, wheelchair accessibility)" rows="4"></textarea>
+              </div>
+              
+              <div class="form-group">
+                <div class="checkbox-group">
+                  <input type="checkbox" id="terms" name="terms" required>
+                  <label for="terms">
+                    I agree to the <a href="#" class="text-primary">Terms and Conditions</a> and <a href="#" class="text-primary">Privacy Policy</a>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="form-buttons">
+                <button type="button" class="btn btn-outline" id="back-to-step-2">Back</button>
+                <button type="submit" class="btn btn-primary" id="submit-booking">
+                  <span class="btn-text">Complete Booking</span>
+                  <span class="btn-loading hidden">
+                    <i data-lucide="loader-2" class="animate-spin"></i>
+                    Processing
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    &lt;!-- Live Chat Button -->
+    <div class="live-chat-container">
+      <button id="chat-toggle" class="chat-button">
+        <i data-lucide="message-circle" id="chat-icon"></i>
+        <i data-lucide="x" id="close-icon" class="hidden"></i>
+      </button>
+      
+      <div id="chat-window" class="chat-window hidden">
+        <div class="chat-header">
+          <h3>Live Chat Support</h3>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="message agent-message">
+            <div class="message-content">
+              <p>Hi there! I'm Amanda, your booking manager. How can I help you today?</p>
+              <span class="message-time">12:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input">
+          <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Type your message..." required>
+            <button type="submit">
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  &lt;!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Premium Transport</h3>
+          <p>
+            Providing luxury transportation services in College Station and beyond. Professional drivers, premium vehicles, exceptional service.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <i data-lucide="facebook"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i data-lucide="twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Our Vehicles</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="booking.html?service=airport">Airport Transfers</a></li>
+            <li><a href="booking.html?service=event">Event Transportation</a></li>
+            <li><a href="booking.html?service=custom">Custom Bookings</a></li>
+            <li><a href="#">Corporate Services</a></li>
+            <li><a href="#">Special Occasions</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i data-lucide="map-pin"></i>
+              <span>123 Main Street, College Station, TX 77840</span>
+            </li>
+            <li>
+              <i data-lucide="phone"></i>
+              <span>(555) 123-4567</span>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <span>info@premiumtransport.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Premium Transport. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>
+

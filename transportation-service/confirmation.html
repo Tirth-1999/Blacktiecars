@@ -1,0 +1,292 @@
+&lt;!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Confirmation | Premium Transportation Services</title>
+  <meta name="description" content="Your transportation booking has been confirmed. View your booking details and next steps.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.css">
+</head>
+<body>
+  &lt;!-- Navigation -->
+  <header class="sticky-header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <button id="menu-toggle" class="menu-button lg-hidden">
+            <i data-lucide="menu"></i>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <a href="index.html" class="logo">Premium Transport</a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="vehicles.html" class="nav-link">Vehicles</a>
+          <a href="booking.html" class="nav-link">Book Now</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="phone-container">
+            <i data-lucide="phone" class="icon-sm"></i>
+            <span class="phone-number">(555) 123-4567</span>
+          </div>
+          <a href="booking.html" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    
+    &lt;!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button id="close-menu" class="close-button">
+          <i data-lucide="x"></i>
+        </button>
+        <nav class="mobile-nav">
+          <a href="index.html" class="mobile-nav-link">Home</a>
+          <a href="vehicles.html" class="mobile-nav-link">Vehicles</a>
+          <a href="booking.html" class="mobile-nav-link">Book Now</a>
+          <a href="#" class="mobile-nav-link">About Us</a>
+          <a href="#" class="mobile-nav-link">Contact</a>
+          <div class="mobile-phone">
+            <i data-lucide="phone"></i>
+            <span>(555) 123-4567</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section bg-light">
+      <div class="container">
+        <div class="confirmation-header">
+          <div class="confirmation-icon">
+            <i data-lucide="check"></i>
+          </div>
+          <h1>Booking Confirmed!</h1>
+          <p>Your transportation has been booked successfully. A confirmation email has been sent to your email address.</p>
+        </div>
+        
+        <div class="confirmation-card">
+          <div class="card-header">
+            <h2>Booking Details</h2>
+          </div>
+          <div class="card-content">
+            <div class="booking-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="calendar"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Date & Time</h3>
+                  <p>May 15, 2024 at 10:00 AM</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Pickup Location</h3>
+                  <p>123 Main St, College Station, TX</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="car"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Vehicle</h3>
+                  <p>Lincoln Navigator</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="users"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Passengers</h3>
+                  <p>4 passengers, 3 luggage items</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="clock"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Service Type</h3>
+                  <p>Airport Transfer</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i data-lucide="credit-card"></i>
+                </div>
+                <div class="detail-content">
+                  <h3>Payment Status</h3>
+                  <p class="status-paid">Paid</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="booking-reference">
+              <h3>Booking Reference</h3>
+              <p class="reference-code">TXCS-24051-8976</p>
+              <p class="reference-note">
+                Please keep this reference number for your records. You'll need it if you need to modify or cancel your booking.
+              </p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <p>Our booking manager, Amanda, will contact you shortly to confirm all details.</p>
+            <div class="footer-buttons">
+              <a href="booking.html" class="btn btn-outline">Book Another Trip</a>
+              <a href="index.html" class="btn btn-primary">Return to Home</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="next-steps-card">
+          <h2>What's Next?</h2>
+          <ul class="steps-list">
+            <li>
+              <div class="step-number">1</div>
+              <p>You'll receive a confirmation email with your booking details.</p>
+            </li>
+            <li>
+              <div class="step-number">2</div>
+              <p>Amanda, our booking manager, will call you to confirm all details and address any special requirements.</p>
+            </li>
+            <li>
+              <div class="step-number">3</div>
+              <p>Your driver will contact you 24 hours before your scheduled pickup to introduce themselves.</p>
+            </li>
+            <li>
+              <div class="step-number">4</div>
+              <p>On the day of service, your driver will arrive 10 minutes early at the pickup location.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    &lt;!-- Live Chat Button -->
+    <div class="live-chat-container">
+      <button id="chat-toggle" class="chat-button">
+        <i data-lucide="message-circle" id="chat-icon"></i>
+        <i data-lucide="x" id="close-icon" class="hidden"></i>
+      </button>
+      
+      <div id="chat-window" class="chat-window hidden">
+        <div class="chat-header">
+          <h3>Live Chat Support</h3>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="message agent-message">
+            <div class="message-content">
+              <p>Hi there! I'm Amanda, your booking manager. How can I help you today?</p>
+              <span class="message-time">12:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input">
+          <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Type your message..." required>
+            <button type="submit">
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  &lt;!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Premium Transport</h3>
+          <p>
+            Providing luxury transportation services in College Station and beyond. Professional drivers, premium vehicles, exceptional service.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <i data-lucide="facebook"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i data-lucide="twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Our Vehicles</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="booking.html?service=airport">Airport Transfers</a></li>
+            <li><a href="booking.html?service=event">Event Transportation</a></li>
+            <li><a href="booking.html?service=custom">Custom Bookings</a></li>
+            <li><a href="#">Corporate Services</a></li>
+            <li><a href="#">Special Occasions</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i data-lucide="map-pin"></i>
+              <span>123 Main Street, College Station, TX 77840</span>
+            </li>
+            <li>
+              <i data-lucide="phone"></i>
+              <span>(555) 123-4567</span>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <span>info@premiumtransport.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Premium Transport. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

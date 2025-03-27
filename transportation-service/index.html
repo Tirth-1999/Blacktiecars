@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Transportation Services | College Station</title>
+  <meta name="description" content="Luxury vehicle transportation with professional drivers for airport transfers, events, and custom bookings in College Station and beyond.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="sticky-header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <button id="menu-toggle" class="menu-button lg-hidden">
+            <i data-lucide="menu"></i>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <a href="index.html" class="logo">Premium Transport</a>
+        </div>
+        
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="vehicles.html" class="nav-link">Vehicles</a>
+          <a href="booking.html" class="nav-link">Book Now</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="header-actions">
+          <div class="phone-container">
+            <i data-lucide="phone" class="icon-sm"></i>
+            <span class="phone-number">(555) 123-4567</span>
+          </div>
+          <a href="booking.html" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button id="close-menu" class="close-button">
+          <i data-lucide="x"></i>
+        </button>
+        <nav class="mobile-nav">
+          <a href="index.html" class="mobile-nav-link">Home</a>
+          <a href="vehicles.html" class="mobile-nav-link">Vehicles</a>
+          <a href="booking.html" class="mobile-nav-link">Book Now</a>
+          <a href="#" class="mobile-nav-link">About Us</a>
+          <a href="#" class="mobile-nav-link">Contact</a>
+          <div class="mobile-phone">
+            <i data-lucide="phone"></i>
+            <span>(555) 123-4567</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Premium Transportation Services</h1>
+        <p>Luxury vehicles with professional drivers for airport transfers, events, and custom bookings in College Station and beyond.</p>
+        <div class="hero-buttons">
+          <a href="booking.html" class="btn btn-primary btn-lg">Book Now</a>
+          <a href="vehicles.html" class="btn btn-outline btn-lg">View Our Fleet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section bg-white">
+      <div class="container">
+        <h2 class="section-title">Premium Transportation Services</h2>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="car"></i>
+              <h3>Airport Transfers</h3>
+            </div>
+            <p>Reliable pickup and drop-off services to all major airports in Texas, including flight tracking and waiting time.</p>
+            <a href="booking.html?service=airport" class="btn btn-outline btn-block">Book Airport Transfer</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="calendar"></i>
+              <h3>Event Transportation</h3>
+            </div>
+            <p>Premium transportation for A&M matches, corporate events, weddings, and special occasions.</p>
+            <a href="booking.html?service=event" class="btn btn-outline btn-block">Book Event Service</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="map-pin"></i>
+              <h3>Custom Bookings</h3>
+            </div>
+            <p>Flexible transportation solutions from 2-hour to 24-hour durations, tailored to your specific needs.</p>
+            <a href="booking.html?service=custom" class="btn btn-outline btn-block">Create Custom Booking</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Service Areas -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Service Coverage</h2>
+        <p class="section-description">
+          Based in College Station, we provide premium transportation services throughout major Texas cities.
+        </p>
+        
+        <div class="service-areas">
+          <div class="area-card">
+            <h3>College Station</h3>
+            <p>Primary Service Area</p>
+          </div>
+          <div class="area-card">
+            <h3>Houston</h3>
+            <p>Extended Coverage</p>
+          </div>
+          <div class="area-card">
+            <h3>Dallas</h3>
+            <p>Extended Coverage</p>
+          </div>
+          <div class="area-card">
+            <h3>Austin</h3>
+            <p>Extended Coverage</p>
+          </div>
+          <div class="area-card">
+            <h3>San Antonio</h3>
+            <p>Extended Coverage</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Vehicle Showcase -->
+    <section class="section bg-white">
+      <div class="container">
+        <h2 class="section-title">Our Premium Fleet</h2>
+        <p class="section-description">
+          Choose from our selection of luxury vehicles, each maintained to the highest standards and driven by professional chauffeurs.
+        </p>
+        
+        <div class="vehicle-grid">
+          <div class="vehicle-card">
+            <div class="vehicle-image">
+              <img src="https://placehold.co/500x300" alt="Maserati Quattroporte">
+            </div>
+            <div class="vehicle-content">
+              <h3>Maserati Quattroporte</h3>
+              <p>Luxury sedan with premium leather interior and advanced entertainment system.</p>
+              <div class="vehicle-details">
+                <div class="detail">
+                  <i data-lucide="users"></i>
+                  <span>3 passengers</span>
+                </div>
+                <div class="detail">
+                  <i data-lucide="briefcase"></i>
+                  <span>2 luggage</span>
+                </div>
+              </div>
+            </div>
+            <div class="vehicle-footer">
+              <a href="booking.html?vehicle=maserati" class="btn btn-primary btn-block">Book This Vehicle</a>
+            </div>
+          </div>
+          
+          <div class="vehicle-card">
+            <div class="vehicle-image">
+              <img src="https://placehold.co/500x300" alt="Lincoln Navigator">
+            </div>
+            <div class="vehicle-content">
+              <h3>Lincoln Navigator</h3>
+              <p>Spacious SUV with ample legroom and luggage space for group travel.</p>
+              <div class="vehicle-details">
+                <div class="detail">
+                  <i data-lucide="users"></i>
+                  <span>6 passengers</span>
+                </div>
+                <div class="detail">
+                  <i data-lucide="briefcase"></i>
+                  <span>4 luggage</span>
+                </div>
+              </div>
+            </div>
+            <div class="vehicle-footer">
+              <a href="booking.html?vehicle=lincoln" class="btn btn-primary btn-block">Book This Vehicle</a>
+            </div>
+          </div>
+          
+          <div class="vehicle-card">
+            <div class="vehicle-image">
+              <img src="https://placehold.co/500x300" alt="Cadillac Escalade">
+            </div>
+            <div class="vehicle-content">
+              <h3>Cadillac Escalade</h3>
+              <p>Iconic luxury SUV with premium features and commanding presence.</p>
+              <div class="vehicle-details">
+                <div class="detail">
+                  <i data-lucide="users"></i>
+                  <span>6 passengers</span>
+                </div>
+                <div class="detail">
+                  <i data-lucide="briefcase"></i>
+                  <span>4 luggage</span>
+                </div>
+              </div>
+            </div>
+            <div class="vehicle-footer">
+              <a href="booking.html?vehicle=escalade" class="btn btn-primary btn-block">Book This Vehicle</a>
+            </div>
+          </div>
+          
+          <div class="vehicle-card">
+            <div class="vehicle-image">
+              <img src="https://placehold.co/500x300" alt="Mercedes Sprinter">
+            </div>
+            <div class="vehicle-content">
+              <h3>Mercedes Sprinter</h3>
+              <p>Spacious van perfect for larger groups and corporate outings.</p>
+              <div class="vehicle-details">
+                <div class="detail">
+                  <i data-lucide="users"></i>
+                  <span>12 passengers</span>
+                </div>
+                <div class="detail">
+                  <i data-lucide="briefcase"></i>
+                  <span>12 luggage</span>
+                </div>
+              </div>
+            </div>
+            <div class="vehicle-footer">
+              <a href="booking.html?vehicle=sprinter" class="btn btn-primary btn-block">Book This Vehicle</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-10">
+          <a href="vehicles.html" class="btn btn-outline">View All Vehicles</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Service Highlights -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Why Choose Our Service</h2>
+        <p class="section-description">
+          We provide a premium transportation experience with attention to every detail.
+        </p>
+        
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="clock"></i>
+            </div>
+            <h3>Punctual Service</h3>
+            <p>
+              Our drivers are always on time, ensuring you never miss a flight or appointment.
+            </p>
+          </div>
+          
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="shield"></i>
+            </div>
+            <h3>Safety First</h3>
+            <p>
+              All our vehicles are regularly maintained and our drivers are professionally trained.
+            </p>
+          </div>
+          
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="credit-card"></i>
+            </div>
+            <h3>Secure Payments</h3>
+            <p>
+              Easy online payment system with automatic invoice generation for your records.
+            </p>
+          </div>
+          
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="check-circle"></i>
+            </div>
+            <h3>Custom Bookings</h3>
+            <p>
+              Flexible booking options from 2-hour to 24-hour durations to meet your specific needs.
+            </p>
+          </div>
+          
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="headphones"></i>
+            </div>
+            <h3>Live Support</h3>
+            <p>
+              Connect with a real person through our live chat for immediate assistance with your booking.
+            </p>
+          </div>
+          
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <h3>Professional Drivers</h3>
+            <p>
+              Our experienced chauffeurs provide courteous and professional service for all your transportation needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="section bg-white">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-description">
+          Don't just take our word for it. Here's what our clients have to say about our premium transportation services.
+        </p>
+        
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-content">"The service was impeccable. The driver was on time, professional, and the vehicle was immaculate. Perfect for my business trip to Houston."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div class="author-info">
+                <p class="author-name">Michael Johnson</p>
+                <p class="author-role">Business Executive</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-content">"We used their services for a corporate event in College Station. The Sprinter van was perfect for our team, and the booking process was seamless."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <p class="author-name">Sarah Williams</p>
+                <p class="author-role">Event Planner</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-content">"Booked a Lincoln Navigator for our family to attend an A&M game. The experience was fantastic from start to finish. Will definitely use again!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">D</div>
+              <div class="author-info">
+                <p class="author-name">David Thompson</p>
+                <p class="author-role">A&M Alumni</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Experience Premium Transportation?</h2>
+        <p>
+          Book your premium vehicle today and enjoy a comfortable, reliable, and luxurious transportation experience.
+        </p>
+        <div class="cta-buttons">
+          <a href="booking.html" class="btn btn-secondary btn-lg">Book Now</a>
+          <a href="vehicles.html" class="btn btn-outline-light btn-lg">View Vehicles</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Live Chat Button -->
+    <div class="live-chat-container">
+      <button id="chat-toggle" class="chat-button">
+        <i data-lucide="message-circle" id="chat-icon"></i>
+        <i data-lucide="x" id="close-icon" class="hidden"></i>
+      </button>
+      
+      <div id="chat-window" class="chat-window hidden">
+        <div class="chat-header">
+          <h3>Live Chat Support</h3>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="message agent-message">
+            <div class="message-content">
+              <p>Hi there! I'm Amanda, your booking manager. How can I help you today?</p>
+              <span class="message-time">12:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input">
+          <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Type your message..." required>
+            <button type="submit">
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Premium Transport</h3>
+          <p>
+            Providing luxury transportation services in College Station and beyond. Professional drivers, premium vehicles, exceptional service.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <i data-lucide="facebook"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i data-lucide="twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Our Vehicles</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="booking.html?service=airport">Airport Transfers</a></li>
+            <li><a href="booking.html?service=event">Event Transportation</a></li>
+            <li><a href="booking.html?service=custom">Custom Bookings</a></li>
+            <li><a href="#">Corporate Services</a></li>
+            <li><a href="#">Special Occasions</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i data-lucide="map-pin"></i>
+              <span>123 Main Street, College Station, TX 77840</span>
+            </li>
+            <li>
+              <i data-lucide="phone"></i>
+              <span>(555) 123-4567</span>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <span>info@premiumtransport.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Premium Transport. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
