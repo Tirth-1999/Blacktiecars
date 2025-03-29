@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Transportation Services | College Station</title>
+  <title>BlackTieCars | Luxury Transportation Services</title>
   <meta name="description" content="Luxury vehicle transportation with professional drivers for airport transfers, events, and custom bookings in College Station and beyond.">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,23 +19,32 @@
             <i data-lucide="menu"></i>
             <span class="sr-only">Toggle menu</span>
           </button>
-          <a href="index.html" class="logo">Premium Transport</a>
+          <a href="index.html" class="logo">BlackTieCars</a>
         </div>
         
         <nav class="desktop-nav">
-          <a href="index.html" class="nav-link">Home</a>
+          <a href="index.html" class="nav-link active">Home</a>
           <a href="vehicles.html" class="nav-link">Vehicles</a>
           <a href="booking.html" class="nav-link">Book Now</a>
-          <a href="#" class="nav-link">About Us</a>
-          <a href="#" class="nav-link">Contact</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="contact.html" class="nav-link">Contact</a>
         </nav>
         
         <div class="header-actions">
-          <div class="phone-container">
-            <i data-lucide="phone" class="icon-sm"></i>
-            <span class="phone-number">(555) 123-4567</span>
+          <div class="contact-info">
+            <div class="email-container">
+              <i data-lucide="mail" class="icon-sm"></i>
+              <a href="mailto:info@blacktiecars.com" class="email">info@blacktiecars.com</a>
+            </div>
+            <div class="phone-container">
+              <i data-lucide="phone" class="icon-sm"></i>
+              <a href="tel:5551234567" class="phone-number">(555) 123-4567</a>
+            </div>
+            <div class="hours-container">
+              <i data-lucide="clock" class="icon-sm"></i>
+              <span class="hours">Open 24/7</span>
+            </div>
           </div>
-          <a href="booking.html" class="btn btn-primary">Book Now</a>
         </div>
       </div>
     </div>
@@ -47,14 +56,24 @@
           <i data-lucide="x"></i>
         </button>
         <nav class="mobile-nav">
-          <a href="index.html" class="mobile-nav-link">Home</a>
+          <a href="index.html" class="mobile-nav-link active">Home</a>
           <a href="vehicles.html" class="mobile-nav-link">Vehicles</a>
           <a href="booking.html" class="mobile-nav-link">Book Now</a>
-          <a href="#" class="mobile-nav-link">About Us</a>
-          <a href="#" class="mobile-nav-link">Contact</a>
-          <div class="mobile-phone">
-            <i data-lucide="phone"></i>
-            <span>(555) 123-4567</span>
+          <a href="about.html" class="mobile-nav-link">About Us</a>
+          <a href="contact.html" class="mobile-nav-link">Contact</a>
+          <div class="mobile-contact">
+            <div class="mobile-contact-item">
+              <i data-lucide="mail"></i>
+              <a href="mailto:info@blacktiecars.com">info@blacktiecars.com</a>
+            </div>
+            <div class="mobile-contact-item">
+              <i data-lucide="phone"></i>
+              <a href="tel:5551234567">(555) 123-4567</a>
+            </div>
+            <div class="mobile-contact-item">
+              <i data-lucide="clock"></i>
+              <span>Open 24/7</span>
+            </div>
           </div>
         </nav>
       </div>
@@ -66,11 +85,11 @@
     <section class="hero">
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <h1>Premium Transportation Services</h1>
-        <p>Luxury vehicles with professional drivers for airport transfers, events, and custom bookings in College Station and beyond.</p>
+        <h1>Luxury Transportation Services</h1>
+        <p>Premium vehicles with professional drivers for airport transfers, events, and custom bookings in College Station and beyond.</p>
         <div class="hero-buttons">
           <a href="booking.html" class="btn btn-primary btn-lg">Book Now</a>
-          <a href="vehicles.html" class="btn btn-outline btn-lg">View Our Fleet</a>
+          <a href="vehicles.html" class="btn btn-secondary btn-lg">View Our Fleet</a>
         </div>
       </div>
     </section>
@@ -265,9 +284,9 @@
             <div class="highlight-icon">
               <i data-lucide="clock"></i>
             </div>
-            <h3>Punctual Service</h3>
+            <h3>24/7 Service</h3>
             <p>
-              Our drivers are always on time, ensuring you never miss a flight or appointment.
+              Our services are available around the clock, ensuring you have transportation whenever you need it.
             </p>
           </div>
           
@@ -395,7 +414,7 @@
       <div class="container">
         <h2>Ready to Experience Premium Transportation?</h2>
         <p>
-          Book your premium vehicle today and enjoy a comfortable, reliable, and luxurious transportation experience.
+          Book your luxury vehicle today and enjoy a comfortable, reliable, and luxurious transportation experience.
         </p>
         <div class="cta-buttons">
           <a href="booking.html" class="btn btn-secondary btn-lg">Book Now</a>
@@ -440,7 +459,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <h3>Premium Transport</h3>
+          <h3>BlackTieCars</h3>
           <p>
             Providing luxury transportation services in College Station and beyond. Professional drivers, premium vehicles, exceptional service.
           </p>
@@ -463,8 +482,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="vehicles.html">Our Vehicles</a></li>
             <li><a href="booking.html">Book Now</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         
@@ -488,18 +507,22 @@
             </li>
             <li>
               <i data-lucide="phone"></i>
-              <span>(555) 123-4567</span>
+              <a href="tel:5551234567">(555) 123-4567</a>
             </li>
             <li>
               <i data-lucide="mail"></i>
-              <span>info@premiumtransport.com</span>
+              <a href="mailto:info@blacktiecars.com">info@blacktiecars.com</a>
+            </li>
+            <li>
+              <i data-lucide="clock"></i>
+              <span>Open 24/7 for your convenience</span>
             </li>
           </ul>
         </div>
       </div>
       
       <div class="footer-bottom">
-        <p>&copy; <span id="current-year"></span> Premium Transport. All rights reserved.</p>
+        <p>&copy; <span id="current-year"></span> BlackTieCars. All rights reserved.</p>
         <div class="footer-legal">
           <a href="#">Terms of Service</a>
           <a href="#">Privacy Policy</a>
